@@ -1,0 +1,38 @@
+#definition-meme {
+	background-color: #1C3341;
+}
+#definition-meme .bloc-emphased {
+	background-color: #008773;
+	border: 3px dashed #FFF;
+	color: #FFF;
+}
+
+
+
+#memes-exemples img {
+	max-height: 900px;
+	margin: 1em auto;
+	width: auto;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+
+#decalogue {
+	background-color: #FFFADA;
+	color: #4C201B;
+}
+#decalogue strong {
+	color: #ED6353;
+}
+#decalogue h1 {
+	color: #A6453A;
+}
+#decalogue>div {
+	display: flex;
+	justify-content: space-between;
+}
+#decalogue>div>* {
+	width: 45%;
+	text-align: justify;
+}

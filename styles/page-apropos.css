@@ -1,0 +1,33 @@
+.bloc-emphased {
+	display: flex;
+	justify-content: space-between;
+}
+.bloc-emphased #logo-iut {
+	margin-top: 1em;
+	height: 5em;
+	width: auto;
+}
+.bloc-emphased div {
+	margin-left: 1.5em;
+}
+
+
+
+iframe#openstreetmap {
+	border: 1px solid black;
+	width: 100%;
+	height: 600px;
+}
+
+
+
+#bibliographie img {
+	max-height: 200px;
+}
+#bibliographie a {
+	color: rgb(20, 120, 200);
+	font-style: italic;
+}
+#bibliographie a:hover {
+	color: rgb(50, 150, 230);
+}

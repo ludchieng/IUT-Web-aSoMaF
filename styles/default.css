@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: NotoSerif;
+	src: url('../fonts/NotoSerif-Regular.ttf');
+}
+@font-face {
+	font-family: NotoSerifItalic;
+	src: url('../fonts/NotoSerif-Italic.ttf');
+}
+@font-face {
+	font-family: NotoSerifBold;
+	src: url('../fonts/NotoSerif-Bold.ttf');
+}
+@font-face {
+	font-family: NotoSerifBoldItalic;
+	src: url('../fonts/NotoSerif-BoldItalic.ttf');
+}
+@font-face {
+	font-family: SimSunB;
+	src: url('../fonts/SimSunB.ttf');
+}
+@font-face {
+	font-family: OpenSans;
+	src: url('../fonts/OpenSans-Regular.ttf');
+}
+@font-face {
+	font-family: OpenSansLight;
+	src: url('../fonts/OpenSans-Light.ttf');
+}
+
+
+
+html, body, main, header, main, section, div, nav, h1, h2, h3, h4, h5, h6, p, a, ul, li {
+	margin: 0 auto;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: NotoSerif, "Trebuchet MS", Helvetica, sans-serif;
+	text-align: center;
+	text-decoration: none;
+	box-sizing: inherit;
+	color: inherit;
+	line-height: 1.8em;
+}
+
+
+
+body {
+	height: 100%;
+	width: 100%;
+	min-height: 640px;
+	min-width: 500px;
+}
+h1, h2, h3, h4, h5, h6 {
+	text-align: left;
+	font-family: NotoSerif, Tahoma, Geneva, sans-serif;
+	font-weight: 200;
+}
+h1 {
+	margin-top: 0.5em;
+	font-size: 1.5em;
+	text-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+h2 {
+	font-size: 1.3em;
+}
+p {
+	margin: 0.5em 0em 1em 0em;
+	text-align: justify;
+}
+
+
+
+header li, footer li {
+	list-style-type: none;
+}
+main li {
+	text-align: left;
+}
+main ul>li {
+	margin-left: 1.5em;
+	font-size: 0.9em;
+}
+main ul ul>li {
+	margin-left: 3em;
+	font-size: 0.8em;
+}
+
+
+/*.anchor { /* Permet d'éviter que le header masque le titre pour les redirections vers les sections ancrées */
+	/*margin-top: -2.5em;
+	padding-top: 2.5em;
+}*/

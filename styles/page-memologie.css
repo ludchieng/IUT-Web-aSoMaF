@@ -1,0 +1,66 @@
+#definition-memologie {
+	background-color: #451A39;
+	border-bottom: 8px solid #FFF;
+}
+#definition-memologie .bloc-emphased {
+	background-color: #FFECC9;
+	border: 3px dashed #8C5236;
+	color: #8C5236;
+}
+
+
+
+#historique {
+	background-color: #1E203B;
+	color: #FFDCAC;
+	border-bottom: 8px solid #FFF;
+}
+#historique h1 {
+	color: #FFECC9;
+}
+#historique strong {
+	color: #FFFFCD;
+}
+#richard-dawkins {
+	height: 15em;
+}
+
+
+
+#propagation {
+	background-color: #E4FFF5;
+	color: #5C746F;
+	border-bottom: 8px solid #FFF;
+}
+#propagation h1 {
+	color: #159153;
+}
+#propagation strong {
+	color: #C3543E;
+}
+#reseaux-sociaux a {
+	width: 18%;
+}
+#groupes {
+	padding: 0.5em 2em;
+	background-color: #FFF;
+	box-shadow: 0 0 16px rgba(0,30,20,0.2);
+}
+
+
+
+#echantillons {
+	background-color: #FFF5CF;	
+	color: #5D4A0F;
+	border-bottom: 8px solid #FFF;
+}
+
+
+
+#interpretation {
+	background-color: #FFE9EC;
+	color: #871E17;
+}
+#interpretation h1 {
+	color: #CD3E37;
+}

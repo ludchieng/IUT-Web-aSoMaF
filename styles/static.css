@@ -1,0 +1,89 @@
+header {
+	position: fixed;
+	width: 100%;
+	height: 2.5em;
+	background-color: rgba(23,25,35,0.95);
+	z-index: 99;
+}
+header>a {
+	float: left;
+	margin-top: 0.1em;
+	height: 95%;
+}
+header>a img {
+	height: inherit;
+	width: auto;
+}
+header nav {
+	float: right;
+	height: inherit;
+}
+header nav>* {
+	display: inline-table;
+	color: #EEE;
+}
+header nav > ul>li {
+	display: inline-block;
+	float: left;
+}
+header nav > ul>li:hover {
+	background-color: rgba(60,65,88,0.95);
+	color: #FFF;
+}
+header nav > ul>li> a {
+	display: block;
+	padding: 0.4em 2.5em 0 2.5em;
+	height: 2.1em;
+}
+header nav > ul>li > ul {
+	display: none;
+}
+header nav > ul>li:hover > ul {
+	display: block;
+}
+header nav > ul>li:hover > ul>li {
+	padding: 0.3em 0.5em;
+	font-size: 0.8em;
+}
+header nav > ul>li > ul>li:hover {
+	background-color: rgba(100,110,125,0.95);
+}
+header nav > ul>li > ul>li > a {
+	display: block;
+	font-family: OpenSansLight, Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+
+
+
+
+#subheader {
+	padding: 4em 0;
+	background-image: url("../assets/background.jpg");
+	color: #FFF;
+	box-shadow: 0 0 10px rgb(10,10,30);
+}
+#subheader #title {
+	font-family: SimSunB, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 3.5em;
+}
+#subheader #subtitle {
+	font-family: OpenSansLight, Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+}
+
+
+
+footer {
+	padding: 20px 0;
+	background-color: rgb(26,26,33);
+}
+footer ul li {
+	font-size: 0.8em;
+	line-height: 1.5em;
+	color: rgb(235,235,235);
+}
+footer ul li:hover {
+	color: rgb(255,255,255);
+	background-color: rgb(40,40,50);
+}

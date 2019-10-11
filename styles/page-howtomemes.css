@@ -1,0 +1,72 @@
+#howtomemes   {
+	background-color: #691C28;
+	border-bottom: 8px solid #FFF;
+}
+#howtomemes .bloc-emphased  {
+	background-color: #FFDEDD;
+	border: 3px dashed #A71E3B;
+	color: #611C36;
+}
+
+
+
+#familles-memes {
+	display: flex;
+	justify-content: space-between;
+}
+#familles-memes div {
+	display: block;
+}
+#familles-memes div img {
+	width: 90%;
+	max-height: 10em;
+}
+#familles-memes div:hover img {
+	transform: scale(1.00);
+	opacity: 1;
+}
+
+
+
+
+#concept {
+	background-color: #F0F7E3;
+	color: #4C6E48;
+	border-bottom: 8px solid #FFF;
+}
+#concept h1 {
+	color: #274C23;
+}
+#concept strong {
+	color: #F5A01B;
+}
+#familles-memes a {
+	width: 18%;
+}
+
+
+
+#realisation {
+	background-color: #FFFDD3;
+	color: #875F0F;
+	border-bottom: 8px solid #FFF;
+}
+#realisation h1, #realisation h2 {
+	color: #CC8600;
+}
+#realisation strong {
+	color: #34679C;
+}
+
+
+
+#diffusion {
+	background-color: #E0EEFF;
+	color: #3D4C73;
+}
+#diffusion h1 {
+	color: #00278A;
+}
+#diffusion strong {
+	color: #D4185F;
+}
